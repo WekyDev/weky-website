@@ -1,104 +1,322 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
-	<link href="css/stylesheet.css" rel="stylesheet">
-	<title>Weky API</title>
-	<h1>Weky API</h1>
-	<h2>An epik discord bot API with many cool features!</h2>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Weky - API</title>
+	<meta property="og:description" content="soon:tm:">
+	<meta name="theme-color" content="#FFD983">
+	<meta property="og:title" content="Weky - API">
+	<link rel="icon" type="image/png" sizes="730x519"
+		href="https://cdn.discordapp.com/avatars/809496186905165834/7dbf02cb782c7111b817f329cac0257a.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/stylesheet.css">
 </head>
+
 <body>
-<h3>List of endpoints:</h3>
-<div class="canvas-endpoints">
-	<h3>"CANVAS"</h3>
-	<p>/gun => image parameter</p>
-	<p>/mask => image parameter</p>
-	<p>/whodidthis => image parameter</p>
-	<p>/pray => image parameter</p>
-	<p>/rifleshoot => image parameter</p>
-	<p>/pressplay => image parameter</p>
-	<p>/vr => image parameter</p>
-	<p>/bestmeme => image parameter</p>
-	<p>/robert => image parameter</p>
-	<p>/saveonlyone => image, image2, image3 parameters</p>
-</div>
-<div class="actions-endpoints">
-	<h3>"ACTIONS"</h3>
-	//No parameters
-	/hug
+	<nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+		<div class="container">
+			<a class="navbar-brand" style="color: white;" href="/">Weky</a>
+			<div class="collapse navbar-collapse" id="navcol-1">
+				<ul class="nav navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="/" style="color:rgb(165, 165, 165)">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="https://discord.gg/2EZSpxNB5z">Support</a></li>
+					</li>
+				</ul>
 
-/headbang
+			</div>
+		</div>
+	</nav>
 
-/punch
+	<img src='https://cdn.discordapp.com/avatars/809496186905165834/7dbf02cb782c7111b817f329cac0257a.png' display=block;
+		margin-right=auto; margin-left=auto; width="100" height="100"></img>
+	<hr style="color: white;">
+	<div class="border-primary article-list">
+		<div class="container">
+			<div class="intro">
+				<p class="text-center">This API has many endpoints for you to choose from!</p>
+				<h1 class="text-center">Canvas</h1>
+			</div>
+			<div class="row">
+				<div class="cards">
+					<div class="card">
+						<h3>/gun</h3>
+						<font color="#FFD983">image <p>
+						</font>
+						<p>The image parameter.</p>
+						<a href='https://api.weky.xyz/canvas/gun?image=https://cdn.discordapp.com/embed/avatars/1.png'
+							class='button'>Link</a>
+					</div>
+					<div class="card">
+						<h3>/whodidthis</h3>
+						<font color="#FFD983">image <p>
+						</font>
+						<p>The image parameter.</p>
+						<a href='https://api.weky.xyz/canvas/whodidthis?image=https://cdn.discordapp.com/embed/avatars/1.png'
+							class='button'>Link</a>
+					</div>
+					<div class="card">
+						<h3>/mask</h3>
+						<font color="#FFD983">image <p>
+						</font>
+						<p>The image parameter.</p>
+						<a href='https://api.weky.xyz/canvas/mask?image=https://cdn.discordapp.com/embed/avatars/1.png'
+							class='button'>Link</a>
+					</div>
+					<div class="card">
+						<h3>/pray</h3>
+						<font color="#FFD983">image <p>
+						</font>
+						<p>The image parameter.</p>
+						<a href='https://api.weky.xyz/canvas/pray?image=https://cdn.discordapp.com/embed/avatars/1.png'
+							class='button'>Link</a>
+					</div>
+					<div class="card">
+						<h3>/rifleshoot</h3>
+						<font color="#FFD983">image <p>
+						</font>
+						<p>The image parameter.</p>
+						<a href='https://api.weky.xyz/canvas/rifleshoot?image=https://cdn.discordapp.com/embed/avatars/1.png'
+							class='button'>Link</a>
+					</div>
+					<div class="card">
+						<h3>/robert</h3>
+						<font color="#FFD983">image <p>
+						</font>
+						<p>The image parameter.</p>
+						<a href='https://api.weky.xyz/canvas/robert?image=https://cdn.discordapp.com/embed/avatars/1.png'
+							class='button'>Link</a>
+					</div>
+					<div class="card">
+						<h3>/bestmeme</h3>
+						<font color="#FFD983">image <p>
+						</font>
+						<p>The image parameter.</p>
+						<a href='https://api.weky.xyz/canvas/vr?image=https://cdn.discordapp.com/embed/avatars/1.png'
+							class='button'>Link</a>
+					</div>
+					<div class="card">
+						<h3>/saveonlyone</h3>
+						<font color="#FFD983">image <p>
+						</font>
+						<p>The image parameter.</p>
+						<font color="#FFD983">image2 <p>
+						</font>
+						<p>The image2 parameter.</p>
+						<font color="#FFD983">image3 <p>
+						</font>
+						<p>The image3 parameter.</p>
+						<a href='https://api.weky.xyz/canvas/saveonlyone?image=https://cdn.discordapp.com/embed/avatars/1.png&image2=https://cdn.discordapp.com/avatars/155149108183695360/19a5ee4114b47195fcecc6646f2380b1.png&image3=https://cdn.discordapp.com/avatars/270904126974590976/d60c6bd5971f06776ba96497117f7f58.png'
+							class='button'>Link</a>
+					</div>
 
-/kill
 
-/yay
+				</div>
+				<div class="intro">
+					<h1 class="text-center">Actions</h1>
+				</div>
+				<div class="row">
+					<div class="cards">
+						<div class="card">
+							<h3>/hug</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/hug' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/headbang</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/headbang' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/mask</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/punch' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/kill</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/kill' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/yay</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/yay' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/yes</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/yes' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/no</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/no' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/poke</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/poke' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/bite</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/bite' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/cuddle</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/cuddle' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/smack</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/smack' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/sleep</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/sleep' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/kiss</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/kiss' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/run</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/run' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/laugh</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/laugh' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/cry</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/cry' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/smug</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/smug' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/story</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/story' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/stare</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/stare' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/lick</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/lick' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/clap</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/clap' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/happy</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/happy' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/hello</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/hello' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/bye</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/bye' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/cry</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/cry' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/confused</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/confused' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/blush</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/blush' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/wink</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/wink' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/shy</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/shy' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/dizzy</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/dizzy' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/vomit</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/vomit' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/bored</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/bored' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/tired</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/tired' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/neutral</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/neutral' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/thinking</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/thinking' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/angry</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/angry' class='button'>Link</a>
+						</div>
+						<div class="card">
+							<h3>/surprised</h3>
+							<p>No parameter.</p>
+							<a href='https://api.weky.xyz/actions/surprised' class='button'>Link</a>
+						</div>
 
-/yes
+					</div>
+					<style>
+						::-webkit-scrollbar {
+							visibility: hidden;
+						}
+					</style>
 
-/no
 
-/poke
-
-/bite
-
-/cuddle
-
-/dance
-
-/smack
-
-/sleep
-
-/kiss
-
-/run
-
-/laugh
-
-/cry
-
-/smug
-
-/story
-
-/stare
-
-/lick
-
-/clap
-
-/happy
-
-/hello
-
-/bye
-
-/confused
-
-/blush
-
-/wink
-
-/shy
-
-/dizzy
-
-/vomit
-
-/bored
-
-/tired
-
-/neutral
-
-/thinking
-
-/angry
-
-/surprised
-</div>
+					<div class="brands"></div>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+					<script
+						src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
+					<script></script>
 </body>
+
 </html>
